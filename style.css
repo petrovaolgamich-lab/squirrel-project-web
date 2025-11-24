@@ -1,16 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spectral';
+}
 header {
     position: fixed;
     display: flex;
     top: 0;
     left: 0;
     right: 0;
-    background-color: rgb(33, 35, 41);
-    padding: 30px;
+    background-color: rgb(61, 63, 70);
+    /* padding: 30px; */
     color: rgb(255, 255, 255);
     justify-content: space-around;
      align-items: center;
     /* ? */
     z-index: 1;
+    height: 70px;
 }
 header .logo {
     color: rgb(255, 255, 255);
@@ -35,12 +42,33 @@ header ul li a:hover {
     color: rgb(255, 255, 255);
     transition: all 0.5s ease 0s;
 }
+main{
+    margin-top: 70px;
+
+}
 .textSquirrel {
     color: brown;
     text-align: center;
 }
+.heroBox{
+    background-color: rgb(33, 35, 41);
+    height: 500px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
 .squirrelFacts {
-
+    margin: 30px;
+    background-color: rgb(61, 63, 70);
+    padding: 30px;
+    border-radius: 20px;
+    line-height: 30px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 2px white;
+    text-shadow: 2px 3px 0px black;
+    width: 40%;
+    text-align: center;
 }
 .photoRealSquirrels {
 
