@@ -48,24 +48,27 @@ header {
     border-radius: 50%;
 }
 .logo img {
-    width: 100%;
+    width: 70%;
     height: auto;
 }
 main{
     margin-top: 60px;
 }
 .textSquirrel {
-    color:   rgb(202, 139, 96);
+    color:  rgb(202, 139, 96);
     text-align: center;
     font-size: 2.5rem;
     font-weight: 700;
     line-height: 61%;
     margin-bottom: 32px;
+    margin-top: 15px;
 }
 .SquirrelTop {
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-bottom: 32px;
+    width: 90%;
 }
 .SquirrelTop img {
     width: 100%;
@@ -78,7 +81,8 @@ main{
     box-shadow: 0 10px 20px rgbA(0, 0, 0, 0.25);
 } */
 .heroBox {
-    min-height: 100dvh;
+    /* min-height: 100dvh; */
+    min-height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -99,11 +103,11 @@ main{
     /* text-shadow: 2px 3px 0px black; */
     width: 100%;
     text-align: center;
-    margin-bottom: 32px;
+    margin-bottom: 0px;
 }
 .content {
     padding: 30px 16px;
-    color:  rgb(212, 124, 56);
+    color:  rgb(202, 139, 96);
     text-align: center;
     background-color: rgb(255, 255, 255);
     margin-top: 60px;
@@ -112,11 +116,11 @@ main{
     font-size: 2.5rem;
     font-weight: 700;
 }
-.slide {
+/* .slide {
     padding: 20px;
     background-color: #f5f0e6;
     border-radius: 20px;
-}
+} */
 .slide img {
     width: 100%;
     height: auto;
