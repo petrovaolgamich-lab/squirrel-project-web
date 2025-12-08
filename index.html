@@ -11,9 +11,7 @@
 </head>
 <body>
     <header>
-        <a href=".index.html">
-            <div class="logo"><img src="logo pixel.png" alt=""/></div>
-        </a>
+        <div class="logo"><img src="logo pixel.png" alt=""/></div>
         <div>
             <ul class="navig">
                 <li>
@@ -33,26 +31,37 @@
     </header>
     <main>
         <section>
-            <div></div>
-            <div></div>
             <div class="heroBox" id="facts">
                 <p class="textSquirrel">Белка</p>
                 <div class="SquirrelTop"><img src="Squirrel top cropped.jpg"/></div>
-                <!-- <div class="mainTop"> -->
-                    <div class="squirrelFacts">
-                        Белки — всеядные, чрезвычайно запасливые и любопытные зверьки, известные своей
-                        ловкостью и умением выживать в разных климатических условиях. Они могут прыгать
-                        на расстояние, в 20 раз превышающее длину их тела, используя хвост как руль и
-                        парашют, имеют постоянно растущие зубы и линяют дважды в год. Белки обитают на 
-                        всех континентах, кроме Австралии и Антарктиды.
-                    </div>
-                <!-- </div> -->
+                <div class="squirrelFacts">
+                    Белки — всеядные, чрезвычайно запасливые и любопытные зверьки, известные своей
+                    ловкостью и умением выживать в разных климатических условиях. Они могут прыгать
+                    на расстояние, в 20 раз превышающее длину их тела, используя хвост как руль и
+                    парашют, имеют постоянно растущие зубы и линяют дважды в год. Белки обитают на 
+                    всех континентах, кроме Австралии и Антарктиды.
+                </div>
             </div>
             <div class="content" id="species">
                 <p>Виды белок</p>
                 <div class="slider">
                     <div class="slide">
                         <img src="вид серая белка.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="arizon squirrel.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="eurasian squirrel.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="gvian squirrel.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="japan squirrel.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="вид белка летяга.jpg" alt="">
                     </div>
                 </div>
                 <div class="sliderControl">
@@ -68,11 +77,12 @@
                     </div>
                 </div>
                 <div class="sliderControl">
-                    <button class="prev"><</button>
-                    <button class="next">></button>
+                    <button class="prev" id="butPrev"><</button>
+                    <button class="next" id="butNext">></button>
                 </div>
             </div>
         </section>
     </main>
+    <script src="js.js"></script>
 </body>
 </html>
